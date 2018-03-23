@@ -50,7 +50,6 @@ module.exports = class extends Generator {
     this._copyFile('.eslintrc.json');
     this._copyFile('.gitattributes');
     this._copyFile('.gitignore');
-    this._copyFile('.npmrc');
     this._copyFile('CHANGELOG.md');
     this._copyFile('README.md');
     this._copyFile('wallaby.js');
@@ -68,12 +67,12 @@ module.exports = class extends Generator {
     });
   }
 
-  installDependencies() {
-    this.npmInstall();
-  }
-
   end() {
     this._createGitRepo();
+  }
+
+  installDependencies() {
+    this.npmInstall();
   }
 
   _createSrcFolder() {
