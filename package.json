@@ -12,10 +12,10 @@
   ],
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "yeoman-generator": "^2.0.3"
+    "yeoman-generator": "^3.2.0"
   },
   "devDependencies": {
-    "prettier": "^1.5.3"
+    "prettier": "^1.15.3"
   },
   "prettier": {
     "printWidth": 100,
