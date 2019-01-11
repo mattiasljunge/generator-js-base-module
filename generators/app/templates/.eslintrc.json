@@ -3,8 +3,10 @@
     "browser": true,
     "jest": true
   },
-  "extends": [
-    "airbnb-base"
-  ],
-  "parser": "babel-eslint"
+  "extends": ["airbnb-base", "prettier"],
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
