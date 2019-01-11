@@ -17,11 +17,6 @@
   "devDependencies": {
     "prettier": "^1.15.3"
   },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "trailingComma": "all"
-  },
   "author": {
     "name": "Mattias Ljunge",
     "email": "mattias.ljunge@gmail.com"
