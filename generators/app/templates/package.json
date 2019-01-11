@@ -27,19 +27,6 @@
     "jest": "^23.6.0",
     "prettier": "^1.15.3"
   },
-  "babel": {
-    "plugins": [
-      "@babel/plugin-transform-runtime"
-    ],
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "trailingComma": "all"
-  },
   "author": {
     "name": "<%= authorName %>",
     "email": "<%= authorEmail %>"
