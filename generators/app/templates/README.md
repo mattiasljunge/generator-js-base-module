@@ -1,20 +1,28 @@
-# Usage
+#Usage
 
-The module is built using babel with:
+## Building
 
-    $ npm build
+Build the module with:
 
+    $ npm run build
+
+    
 ## Testing
 
-You can test either using npm with jest, or using wallabyJS plugin.
+You can test the module either using jest, or using wallabyJS plugin.
 
-### Using npm with jest 
+#### Using npm with jest 
 
-    $ npm test
+    $ npm run test
 
-### Using wallaby
+#### Using wallaby
 
 Download plugin from [wallaby.js](http://www.wallabyjs.com) and add to one of the supported IDEs.
 The wallaby config file is tested and verified in IntelliJ and Webstorm.
 
-Visit [wallaby.js](http://www.wallabyjs.com) for more information.
+
+## Linting
+
+Lint the module with:
+
+    $ npm run lint
