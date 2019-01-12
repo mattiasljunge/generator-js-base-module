@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Generator for creating javascript modules",
   "files": [
-    "app"
+    "generators"
   ],
   "keywords": [
     "yeoman-generator",
